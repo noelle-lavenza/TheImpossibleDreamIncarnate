@@ -305,7 +305,7 @@
 /atom/proc/check_eye(mob/user)
 	return
 
-/atom/proc/Bumped(atom/movable/AM)
+/atom/Bumped(atom/movable/AM)
 	set waitfor = FALSE
 	SEND_SIGNAL(src, COMSIG_ATOM_BUMPED, AM)
 

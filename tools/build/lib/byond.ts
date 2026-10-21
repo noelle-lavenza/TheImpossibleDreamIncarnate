@@ -162,8 +162,8 @@ export async function DreamMaker(
       );
       throw new Juke.ExitCode(1);
     }
-    const requiredMajorVersion = 516;
-    const requiredMinorVersion = 1685;
+    const requiredMajorVersion = 517;
+    const requiredMinorVersion = 1688;
     const major = Number(version[1]);
     const minor = Number(version[2]);
     if (

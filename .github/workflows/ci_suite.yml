@@ -9,11 +9,11 @@ on:
       - main
 
 env:
-  BYOND_MAJOR: 516
-  BYOND_MINOR: 1687
+  BYOND_MAJOR: 517
+  BYOND_MINOR: 1688
   SPACEMAN_DMM_VERSION: suite-1.11
 
-concurrency: 
+concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
@@ -25,7 +25,7 @@ jobs:
     steps:
       - name: Mandatory Empty Step
         run: exit 0
-    
+
   run_linters:
     name: Run Linters
     needs: start_gate

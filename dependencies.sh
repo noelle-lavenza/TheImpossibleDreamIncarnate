@@ -4,8 +4,8 @@
 #Final authority on what's required to fully build the project
 
 # byond version
-export BYOND_MAJOR=516
-export BYOND_MINOR=1687
+export BYOND_MAJOR=517
+export BYOND_MINOR=1688
 
 #rust_g git tag
 export RUST_G_VERSION=3.9.0
